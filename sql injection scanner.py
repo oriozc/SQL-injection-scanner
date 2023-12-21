@@ -16,7 +16,7 @@ def get_forms(url):
 def form_details(form):
     detailsOfForm = {}
     action = form.attrs.get("action")
-    method = form.attrs.get("method", "get")
+    method = form.attrs.get("method", "get")    # default for "method" is "get".
 
     inputs = []
 

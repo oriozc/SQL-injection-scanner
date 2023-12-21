@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 
 
 s = requests.Session()
-# my User-Agent
 s.headers["User-Agent"] = "your_userAgent"
 
 

@@ -38,7 +38,7 @@ def form_details(form):
         return detailsOfForm
 
 
-# function that returns whether the site is vulnerable.
+# function that returns whether the response says its vulnerable.
 def vulnerable(response):
     errors = {"quoted string not properly terminated",
               "unclosed quotation mark after the character string",

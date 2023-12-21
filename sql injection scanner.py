@@ -40,6 +40,7 @@ def form_details(form):
 
 # function that returns whether the response says its vulnerable.
 def vulnerable(response):
+    # Oracle and SQL Server Errors:
     errors = {"quoted string not properly terminated",
               "unclosed quotation mark after the character string",
               "you have an error in your SQL syntax"}

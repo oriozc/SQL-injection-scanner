@@ -20,12 +20,12 @@ def form_details(form):
 
     inputs = []
 
-    for input_tag in form.find_all('input'):
+    for input_tag in form.find_all('input'):     # finds every input tag in form.
         input_type = input_tag.attrs.get('type', 'text')
         input_name = input_tag.attrs.get('name')
         input_value = input_tag.attrs.get('value', '')
 
-        # appending all the data into input list.
+        # appending all the data into inputs list.
         inputs.append({
             "type" : input_type,
             "name" : input_name,
